@@ -1,0 +1,16 @@
+target/
+
+### Exclude project files for JetBrains IDE's
+.idea/
+*.iws
+
+### Exclude Eclipse project files
+Servers/
+.settings/
+.metadata
+.project
+.classpath
+.springBeans
+
+### Exclude KDE cache files
+.directory
