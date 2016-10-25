@@ -1,4 +1,4 @@
-This is a minimal implementation of a Maven project using a build server build number for the version number. Though primarily intended for a Continuous Deployment environment that requires a fully automated release stategy, it could be used anywhere a simple and reliable Maven release process is desired. A blog post describing it in more details can be found here:
+This is a minimal implementation of a Maven project using a build server build number for the version number. Though primarily intended for a Continuous Deployment environment that requires a fully automated release stategy, it could be used anywhere a simple and reliable Maven release process is desired. A blog post describing it in more detail can be found here:
 
     <insert URL when blog is published>
 
