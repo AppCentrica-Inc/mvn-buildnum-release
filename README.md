@@ -11,6 +11,8 @@ Running everything via Maven in a Bash shell to test the configuration looks lik
     $ mvn deploy:deploy-file -DpomFile=child/pom.xml -Dfile=child/target/mvn-buildnum-release-child.war -DrepositoryId=artifact_repository -Durl=http://localhost:8081/repository/maven-releases
     $ mvn tomcat7:redeploy
 
-The commands above assume a development/test environment with default local installations of Sonatype Nexus Open Source and Apache Tomcat, it may be necessary to change there URL's to match your local environment. After completing these commands you should be able to access the deployed application at the following URL:
+The commands above assume a development/test environment with default local installations of Sonatype Nexus Open Source and Apache Tomcat, it may be necessary to change there URL's to match your local environment. It will also be necessary to configure the servers in your ~/.m2/settings.xml file, if the server names are changed here, the references to them in both the above commands and project POM files will have to be updated to match.
+
+After completing these commands you should be able to access the deployed application at the following URL:
 
     http://localhost:8080/mvn-buildnum-release/index.html
